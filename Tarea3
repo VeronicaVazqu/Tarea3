@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>Excepciones</h1>
+    </header>
+     <form id="forma" action="javascript:procesa()">
+       <p>
+        <label accesskey="E">
+          Ingresar un numero:<br>
+          <input id="numero" name="numero" type="text" autofocus>
+        </label>
+      </p>
+    
+<p>
+        <input type="submit" value="Procesar" accesskey="P">
+      </p>
+      <br><output id="x"></output>
+      <br><output id="raiz"></output>
+      <br><output id="error"></output>
+    </form>
+    <footer>
+      Verónica Vázquez Copyright 2021
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
